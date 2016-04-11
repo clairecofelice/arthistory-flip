@@ -16,10 +16,6 @@
   font-family: "Lucida Console", Times, serif;
 }
 
-.navbar-brand {
-  background-color: ;
-}
-
 .jumbotron {
   background-image: url(images/jumbotron.PNG);
   background-image: no-repeat;
@@ -30,6 +26,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.opacity {
+  opacity: 0.8;
+}
+
 .article-header {
   max-width: 1020px;
   margin-left: auto;
@@ -42,6 +43,11 @@
   border-width: 0px 5px 0px 0px;
   border-style: solid;
   border-color: white;
+}
+
+.foot.col-md-4 {
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .spotlight {
@@ -105,4 +111,6 @@ a {
   color: black;
 }
 
-"@navbar-default-link-color": "#FFF"
+.link-text {
+  color: white;
+}
