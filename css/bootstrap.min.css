@@ -30,11 +30,29 @@
   margin-left: auto;
   margin-right: auto;
 }
-.current-events {
+.article-header {
   max-width: 1020px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1%;
+}
+
+.col-md-4 {
+  background-color: #ebebe3;
+  border-width: 0px 5px 0px 0px;
+  border-style: solid;
+  border-color: white;
+}
+
+.spotlight {
+  background-color: #283b59;
+  color: white;
+  padding: 2%;
+}
+
+.img-responsive {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .container {
@@ -44,7 +62,8 @@
 }
 
 .container .btn {
-  background-color: green;
+  background-color: none;
+  color: black;
 }
 
 .navbar {
@@ -62,11 +81,28 @@
   margin-right: auto;
 }
 
+.footer {
+  max-width: 1020px;
+  height: 100px;
+  background-color: #a51417;
+  padding: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+h1 {
+  color: #283b59;
+}
+
 h3 {
+  color: #283b59;
   text-transform: uppercase;
   font-size: 14px;
 }
 
 a {
-  color: white;
+  color: black;
 }
+
+"@navbar-default-link-color": "#FFF"
